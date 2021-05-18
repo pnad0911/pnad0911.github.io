@@ -98,7 +98,7 @@ clickme.addEventListener('click', function onOpen() {
 yes.addEventListener('click', function onOpen() {
   ++qi;
   if(qi >= questions.length) {
-    ques.close();
+    ques.style.display = 'none';
     var params = {
       name: 'Vy',
     };
